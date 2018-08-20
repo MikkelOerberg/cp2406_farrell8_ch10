@@ -1,12 +1,14 @@
+package Debugging;
+
 public class DebugPlay
 {
-   private String title;
+   protected String title;
    protected String author;
 
-   public FixDebugPlay(String title, String author)
+   public DebugPlay(String mytitle, String myauthor)
    {
-      title = title;
-      author = author;
+      title = mytitle;
+      author = myauthor;
    }
    public void display()
    {
